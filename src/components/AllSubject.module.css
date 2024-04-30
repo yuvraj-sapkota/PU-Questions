@@ -1,0 +1,33 @@
+.allSubject {
+}
+
+.subjects {
+  width: 75rem;
+  margin: 2rem auto;
+  box-shadow: 0 2px 4px rgb(78, 78, 78);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 2rem;
+}
+
+.dccn {
+  border: 2px solid gray;
+  width: 16rem;
+  height: 14rem;
+  border-radius: 0.6rem;
+  padding: 1rem 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.dccn:hover {
+  background-color: rgb(194, 194, 194);
+  color: white;
+  box-shadow: 0 2px 4px rgb(108, 108, 108);
+  border: 2px solid rgb(108, 108, 108);
+  height: 14rem;
+  width: 16rem;
+}

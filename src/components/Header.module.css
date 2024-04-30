@@ -1,0 +1,14 @@
+.heading {
+  background-color: #e5e5e5;
+  box-shadow: 0 2px 4px rgb(78, 78, 78);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headTitle {
+  width: 75rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}

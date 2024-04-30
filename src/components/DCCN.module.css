@@ -1,0 +1,97 @@
+/* .dccn {
+
+  width: 75rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.subjectName {
+  font-size: 2.3rem;
+  margin: 2rem;
+
+}
+
+.image {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+
+  width: 70rem;
+
+}
+
+.image img {
+ 
+} */
+
+/* .container {
+  border: 2px solid red;
+  height: 100vh;
+
+}
+
+.images {
+  border: 2px solid blue;
+  width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.images img {
+  width: 35rem;
+  height: 48rem;
+} */
+
+/* DCCN.module.css */
+.container {
+  /* padding-top: 60px;  */
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container div {
+  /* border: 2px solid gray; */
+  /* background-color: grey; */
+}
+
+.container p {
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.images {
+  border: 1px solid gray;
+  width: 45rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  height: calc(100vh - 85px);
+}
+
+.images img {
+  width: 35rem;
+  height: 45rem;
+}
