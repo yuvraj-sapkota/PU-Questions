@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {/* <Question /> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/question">
         <Routes>
           <Route path="/" element={<Question />} />
           <Route path="/click" element={<AllSubject />} />
