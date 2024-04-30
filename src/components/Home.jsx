@@ -1,8 +1,8 @@
 import Header from "./Header";
-import styled from "./Questions.module.css";
+import styled from "./Home.module.css";
 import { Link } from "react-router-dom";
 
-function Question() {
+function Home() {
   return (
     <>
       <div className={styled.home}>
@@ -33,4 +33,4 @@ function Question() {
   );
 }
 
-export default Question;
+export default Home;

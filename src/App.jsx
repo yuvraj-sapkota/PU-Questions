@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Question from "./components/Questions";
 import AllSubject from "./components/AllSbuject";
 import DCCN from "./components/DCCN";
 import Fps from "./components/Fps";
 import Ae from "./components/Ae";
 import Om from "./components/Om";
 import Wt from "./components/Wt";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       {/* <Question /> */}
       <BrowserRouter basename="/pu-questions">
         <Routes>
-          <Route path="/" element={<Question />} />
+          <Route path="/" element={<Home />} />
           <Route path="/click" element={<AllSubject />} />
           <Route path="/dccn" element={<Fps />} />
           <Route path="/fps" element={<DCCN />} />
