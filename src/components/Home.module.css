@@ -52,7 +52,6 @@ button:hover {
 
 @media only screen and (max-width: 720px) {
   .hero {
-    border: 2px solid red;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -63,9 +62,51 @@ button:hover {
 
   .heroTitle {
     width: 82%;
-    background-color: rgb(215, 214, 214);
+    /* background-color: rgb(246, 243, 243); */
     border-radius: 0.5rem;
     padding: 0 1rem;
     margin-bottom: 0.5rem;
+    color: gray;
+    font-size: 1rem;
+  }
+
+  .image img {
+    height: 10rem;
+    width: 18rem;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2rem; */
+  }
+
+  .heroTitle {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  /* .image{
+    border: 2px solid black;
+  } */
+
+  .image img {
+    height: 8rem;
+    width: 12rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
   }
 }

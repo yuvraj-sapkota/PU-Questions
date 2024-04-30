@@ -15,10 +15,14 @@
 }
 
 @media only screen and (max-width: 720px) {
-  .heading {
-
-    width: 100%;
-    height: 5rem;
-    border: 2px solid blue;
+  .headTitle {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .headTitle {
+    font-size: 0.6rem;
+    padding: 1rem;
   }
 }
