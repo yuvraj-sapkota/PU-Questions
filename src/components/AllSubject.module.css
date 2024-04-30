@@ -21,6 +21,10 @@
   padding: 1rem 1rem;
   font-size: 1.3rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .dccn:hover {
@@ -30,4 +34,32 @@
   border: 2px solid rgb(108, 108, 108);
   height: 14rem;
   width: 16rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .subjects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .subjects {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dccn {
+    width: 50%;
+  }
 }
