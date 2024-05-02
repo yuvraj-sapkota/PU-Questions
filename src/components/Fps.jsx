@@ -92,7 +92,7 @@ function Fps() {
     <>
       <Header />
       <div className={styled.container}>
-        <p>Data Communication and Computer Network</p>
+        <p>Data Communication and Computer Networks</p>
         <div className={styled.images}>
           {Fps.map((curElem, index) => {
             const { img } = curElem;
