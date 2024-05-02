@@ -92,7 +92,7 @@ function Ae() {
     <>
       <Header />
       <div className={styled.container}>
-        <p>Fundamental of Probability and Statics</p>
+        <p>Applied Economics</p>
         <div className={styled.images}>
           {Fps.map((curElem, index) => {
             const { img } = curElem;
